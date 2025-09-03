@@ -19,7 +19,7 @@ Centralized data centers are heating up the planet. Concentrated servers consume
 Meanwhile, billions of personal computers, laptops, and even phones sit idle, wasting potential computing power. While hyperscale data centers feel dominant, they actually account for less than 1% of **the world’s total potential computing power across all personal and IoT devices**. The other 99% is scattered across billions of devices—yet most of that potential remains untouched. Instead of contributing to meaningful workloads, these machines spend their cycles on light tasks like browsing, video streaming, or sitting idle. GCC aims to unlock this vast, wasted capacity, transforming everyday devices into part of a global, eco-friendly computing network.
 
 **_💡 Did you know?
-A single modern iPhone chip delivers around 1–2 TFLOPS of compute power. Multiply that by the 6.8 billion smartphones in use today, and you get an astonishing 6,800–13,600 exaflops. For comparison, the entire TOP500 supercomputers combined deliver only ~2,000–3,000 exaflops._**
+A single Phone chip delivers around 1–2 TFLOPS of compute power. Multiply that by the 6.8 billion smartphones in use today, and you get an astonishing 6,800–13,600 exaflops. For comparison, the entire TOP500 supercomputers combined deliver only ~2,000–3,000 exaflops._**
 
 ---
 
