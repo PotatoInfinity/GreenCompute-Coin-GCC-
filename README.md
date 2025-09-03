@@ -1,4 +1,4 @@
-# ❇️ GreenCompute Coin (GCC)  
+<img width="2100" height="1350" alt="image" src="https://github.com/user-attachments/assets/21ddc887-c97e-40e1-9cdd-6596a0b13d41" /># ❇️ GreenCompute Coin (GCC)  
 *The future of Decentralized, Eco-friendly Compute and Hosting*  
 
 ---
@@ -48,8 +48,10 @@ Each device contributes a little bandwidth, compute, and storage.
 - **Reward per block:** Dynamic, based on verified contributions  
   - Formula: `Block Reward = min(TotalContribution × RewardPerUnit, MaxBlockReward)`  
     - `TotalContribution`: verified compute/storage/bandwidth in the block  
-    - `RewardPerUnit`: GCC per unit of work  
-    - `MaxBlockReward`: optional cap to prevent extreme spikes  
+    - `RewardPerUnit`: GCC per unit of work
+    - Unit: `CPU GFLOPs×1+GPU GFLOPs×5+Storage GB-day×0.1+Bandwidth GB×0.2`
+    - Reward (GCC)= `Units×0.01 GCC/unit`
+    - `MaxBlockReward`: 200GCC/block max to prevent extreme spike
 - **Burn policy:** 10% of spent GCC is permanently burned → reducing supply  
 - **Halving cycle:** Every 4 years (reduces RewardPerUnit by 50%)  
 
