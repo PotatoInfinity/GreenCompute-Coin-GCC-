@@ -37,7 +37,7 @@ Each device contributes a little bandwidth, compute, and storage. At scale, redu
 - **Mining by Contribution (PoC):** Users earn GCC not by wasteful hashing, but by contributing real compute, storage, or bandwidth to the network. Rewards are proportional to verified contributions.  
 - **Unified planetary supercomputer:** All devices combine into a single global network. Workloads are automatically sharded and distributed.  
 - **Brute force reliability:** Each shard is executed by many devices simultaneously. Even if most drop offline, majority consensus ensures correctness.  
-- **Sandboxed execution:** Tasks run inside secure sandboxes (e.g. WASM or lightweight VMs), isolating workloads from host devices. Security is prioritized over efficiency.  
+- **Sandboxed execution:** Tasks run inside secure WASM sandboxes, isolating workloads from host devices. Security is prioritized over efficiency.  
 - **Use cases:** AI training, 3D rendering, file hosting, website serving, scientific workloads, and more.  
 - **Pay with GCC → Get resources:** Buy GCC to access compute or storage. Contributors execute workloads, the network verifies results, and contributors are paid.  
 - **Eco advantage:** Small, distributed machines produce less heat, require no industrial cooling, and reduce long-distance data transfer pollution.  
