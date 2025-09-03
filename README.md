@@ -1,4 +1,4 @@
-<img width="2100" height="1350" alt="image" src="https://github.com/user-attachments/assets/21ddc887-c97e-40e1-9cdd-6596a0b13d41" /># ❇️ GreenCompute Coin (GCC)  
+# ❇️ GreenCompute Coin (GCC)  
 *The future of Decentralized, Eco-friendly Compute and Hosting*  
 
 ---
