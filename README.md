@@ -49,7 +49,7 @@ Each device contributes a little bandwidth, compute, and storage.
   - Formula: `Block Reward = min(TotalContribution × RewardPerUnit, MaxBlockReward)`  
     - `TotalContribution`: verified compute/storage/bandwidth in the block  
     - `RewardPerUnit`: GCC per unit of work
-    - Unit `=  CPU GFLOPs×1+GPU GFLOPs×5+Storage GB-day×0.1+Bandwidth GB×0.2`
+    - Unit `=  CPU GFLOPs×1 + GPU GFLOPs×5 + Storage GB-day×0.1 + Bandwidth GB×0.2`
     - Reward (GCC) `= Units×0.01 GCC/unit`
     - `MaxBlockReward`: 200GCC/block max to prevent extreme spike
 - **Burn policy:** 10% of spent GCC is permanently burned → reducing supply  
