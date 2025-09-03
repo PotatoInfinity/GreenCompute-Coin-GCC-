@@ -44,15 +44,20 @@ Each device contributes a little bandwidth, compute, and storage.
 ## Tokenomics  
 
 - **Total supply cap:** 1 billion GCC  
-- **Initial reward per block:** 50 GCC per block  
 - **Block time:** 10 minutes  
-- **Burn policy:** 10% of spent coin is permanently burned → reducing supply  
-- **Halving cycle:** Every 4 years  
+- **Reward per block:** Dynamic, based on verified contributions  
+  - Formula: `Block Reward = min(TotalContribution × RewardPerUnit, MaxBlockReward)`  
+    - `TotalContribution`: verified compute/storage/bandwidth in the block  
+    - `RewardPerUnit`: GCC per unit of work  
+    - `MaxBlockReward`: optional cap to prevent extreme spikes  
+- **Burn policy:** 10% of spent GCC is permanently burned → reducing supply  
+- **Halving cycle:** Every 4 years (reduces RewardPerUnit by 50%)  
 
 **Flow:**  
-`Users buy GCC → Spend for compute/storage → Contributors execute → Contributors earn GCC → 10% burned → Scarcity increases`  
+`Users buy GCC → Spend for compute/storage → Contributors execute → Verified contribution tallied → Contributors earn GCC → 10% burned → Scarcity increases`  
 
-**Dynamic compute-per-GCC:** As scarcity increases and price rises, each GCC represents more verified contribution, maintaining compute-per-dollar stability for users.  
+**Dynamic compute-per-GCC:** As scarcity increases and price rises, each GCC represents more verified contribution, maintaining compute-per-dollar stability for users.
+
 
 ---
 
