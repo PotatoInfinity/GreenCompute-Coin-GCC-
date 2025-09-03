@@ -4,44 +4,40 @@
 ---
 
 ## Core Philosophy  
-GCC is a fair-launch, deflationary cryptocurrency designed to power distributed computing, AI, and storage tasks. This allows users to run services or applications with high reliability and performance **without relying on centralized data centers.**  
+GCC is a fair-launch, deflationary cryptocurrency designed to power distributed computing, AI, and storage tasks. This allows users to run services or applications with high reliability and performance without relying on centralized data centers.  
 
-- **Fair play:** Everyone starts equally, no pre-mine. GCC is open-source; its design is public, nobody owns or controls GCC. GCC is controlled by all GCC users around the world. Developers can improve the software, but they cannot change the rules of the GCC protocol.  
+- **Fair play:** Everyone starts equally, no pre-mine. GCC is open-source; its design is public, nobody owns or controls GCC. GCC is controlled by all GCC users around the world. Developers can improve the software, but they can't change the rules of the GCC protocol.  
 - **Secure:** Everything is encrypted and verified by all nodes planet-wide.  
-- **Reliable through redundancy:** Tasks are distributed to billions of devices and executed redundantly to eliminate single points of failure.  
-- **Deflationary economy & increasing scarcity:** Fixed supply cap of 1,000,000,000 GCC; with a 10% burn on every transaction.  
+- **Reliable:** Tasks are distributed to billions of individual nodes, ensuring no single point of failure.  
+- **Deflationary economy & Increasing scarcity:** Fixed supply cap of 1,000,000,000 GCC; with a dynamic burn on every transaction.  
 
 ---
 
 ## Problem  
 Centralized data centers are heating up the planet. Concentrated servers consume massive amounts of electricity, require industrial cooling, and create an unsustainable environmental footprint. Cooling systems alone can account for 50% of a data center’s total energy consumption.  
 
-Meanwhile, billions of personal computers, laptops, smartphones, and IoT devices sit idle, wasting potential computing power. Hyperscale data centers feel dominant, but they account for less than **1% of the world’s total potential computing power.** The other 99% is scattered across billions of devices, yet remains unused.  
+Meanwhile, billions of personal computers, laptops, and even phones sit idle, wasting potential computing power. While hyperscale data centers feel dominant, they actually account for less than 1% of **the world’s total potential computing power across all personal and IoT devices**. The other 99% is scattered across billions of devices—yet most of that potential remains untouched. Instead of contributing to meaningful workloads, these machines spend their cycles on light tasks like browsing, video streaming, or sitting idle. GCC aims to unlock this vast, wasted capacity, transforming everyday devices into part of a global, eco-friendly computing network.  
 
-Instead of contributing to meaningful workloads, these machines spend their cycles on light tasks or sit idle. GCC unlocks this vast, wasted capacity, transforming everyday devices into part of a global, eco-friendly computing network.  
-
-**_💡 Did you know?_**  
-*A single phone chip delivers ~1–2 TFLOPS of compute power. With 6.8 billion smartphones in use today, that equals **6,800–13,600 exaflops**. By comparison, the entire TOP500 supercomputers combined deliver only ~2,000–3,000 exaflops.*  
+**_💡 Did you know?  
+A single Phone chip delivers around 1–2 TFLOPS of compute power. Multiply that by the 6.8 billion smartphones in use today, and you get an astonishing 6,800–13,600 exaflops. For comparison, the entire TOP500 supercomputers combined deliver only ~2,000–3,000 exaflops._**  
 
 ---
 
 ## Vision  
 GreenCompute Coin (GCC) solves this problem: Instead of relying on massive, concentrated data centers, billions of small, distributed machines (PCs, laptops, IoT devices) work together to form a **planet-scale, green supercomputer network.**  
 
-Each device contributes a little bandwidth, compute, and storage. At scale, redundancy and brute force transform these idle resources into the world’s most powerful decentralized computing grid.  
+Each device contributes a little bandwidth, compute, and storage.  
 
 ---
 
 ## How it Works  
 
-- **Mining by Contribution (PoC):** Users earn GCC not by wasteful hashing, but by contributing real compute, storage, or bandwidth to the network. Rewards are proportional to verified contributions.  
-- **Unified planetary supercomputer:** All devices combine into a single global network. Workloads are automatically sharded and distributed.  
-- **Brute force reliability:** Each shard is executed by many devices simultaneously. Even if most drop offline, majority consensus ensures correctness.  
-- **Sandboxed execution:** Tasks run inside secure WASM sandboxes, isolating workloads from host devices. Security is prioritized over efficiency.  
-- **Use cases:** AI training, 3D rendering, file hosting, website serving, scientific workloads, and more.  
-- **Pay with GCC → Get resources:** Buy GCC to access compute or storage. Contributors execute workloads, the network verifies results, and contributors are paid.  
-- **Eco advantage:** Small, distributed machines produce less heat, require no industrial cooling, and reduce long-distance data transfer pollution.  
-- **Stable compute-per-dollar:** Each GCC represents the verified contribution needed to mine it. As scarcity rises, compute value per GCC scales to preserve stable cost-to-compute for users.  
+- **Mining by contribution:** Users mine GCC not by wasteful hashing, but by contributing real compute/storage/bandwidth to the network. Contributors earn GCC only when they complete verified tasks. Earnings are proportional to the amount of verified work they perform.  
+- **Unified planetary supercomputer:** Users do not select individual nodes. All devices combine into a single global network. When a workload is submitted, the protocol automatically shards it and distributes tasks to appropriate nodes.  
+- **Use cases:** AI training/inference, 3D rendering, file hosting, or website serving through a decentralized, encrypted IPFS-style network.  
+- **Pay with GCC → Get resources:** Buy GCC coins to access secure and reliable computing power. The network automatically executes workloads across many contributors, then returns the result.  
+- **Eco advantage:** Small, distributed machines generate less heat and require no industrial cooling system. Compute is closer to consumers, reducing data transfer pollution.  
+- **Stable compute-per-dollar:** Each GCC represents the amount of verified contribution required to mine it. As scarcity increases and price rises, compute value per GCC scales so that $10 worth of GCC always buys roughly the same amount of computation over time.  
 
 ---
 
@@ -50,76 +46,75 @@ Each device contributes a little bandwidth, compute, and storage. At scale, redu
 - **Total supply cap:** 1 billion GCC  
 - **Block time:** 10 minutes  
 - **Reward per block:** Dynamic, based on verified contributions  
-  - Formula:  
-    `Block Reward = min(TotalContribution × RewardPerUnit, MaxBlockReward)`  
+  - Formula: `Block Reward = min(TotalContribution × RewardPerUnit, MaxBlockReward)`  
     - `TotalContribution`: verified compute/storage/bandwidth in the block  
     - `RewardPerUnit`: GCC per unit of work  
     - Unit = `CPU GFLOPs×1 + GPU GFLOPs×5 + Storage GB-day×0.1 + Bandwidth GB×0.2`  
-    - Reward = `Units × 0.01 GCC/unit`  
-    - `MaxBlockReward = 200 GCC/block` (to prevent spikes)  
-- **Burn policy:** 10% of all GCC spent is permanently destroyed.  
-- **Halving cycle:** Every 4 years, RewardPerUnit is reduced by 50%.  
+    - Reward (GCC) = `Units×0.01 GCC/unit`  
+    - `MaxBlockReward`: 200 GCC/block max to prevent extreme spikes  
+
+### Burn Policy 
+To balance scarcity and usability, GCC introduces a **dual-burn system**:  
+- **5% burn** → Applied to compute/storage/hosting payments (utility transactions).  
+- **10% burn** → Applied to peer-to-peer transfers and trading (speculative transactions).  
+
+This ensures:  
+- Utility remains affordable and encourages real network usage.  
+- Scarcity increases rapidly from trading, fueling long-term value growth.  
+
+- **Halving cycle:** Every 4 years (reduces RewardPerUnit by 50%).  
 
 **Flow:**  
-`Users buy GCC → Spend for compute/storage → Contributors execute → Verified contributions tallied → Contributors earn GCC → 10% burned → Scarcity increases`  
+`Users buy GCC → Spend for compute/storage → Contributors execute → Verified contribution tallied → Contributors earn GCC → 5–10% burned → Scarcity increases`  
 
-**Dynamic compute-per-GCC:** Scarcity ensures $10 worth of GCC always buys roughly the same compute over time.  
+**Dynamic compute-per-GCC:** As scarcity increases and price rises, each GCC represents more verified contribution, maintaining compute-per-dollar stability for users.  
 
 ---
 
-## Consensus Mechanism: PoS + PoC  
+## Scale vs Inefficiency  
 
-GCC eliminates wasteful Proof of Work. Instead, it uses a hybrid **Proof of Stake (PoS) + Proof of Contribution (PoC)** consensus model.  
+Centralized data centers are efficient but represent less than **1% of the world’s total computing potential.**  
 
-### Proof of Stake (PoS)  
-- Validators are chosen based on stake to propose and validate blocks.  
-- PoS ensures chain security and Sybil resistance with minimal energy usage.  
+- **Global compute potential:** ~6,800–13,600 exaflops (from smartphones alone).  
+- **TOP500 supercomputers combined:** ~2,000–3,000 exaflops.  
+- Even if GCC is **3× less efficient** (due to sandboxing, redundancy, and verification), it still unlocks **>33× the power** of today’s entire supercomputer fleet.  
 
-### Proof of Contribution (PoC)  
-- Contributors earn rewards for verified compute, storage, and bandwidth.  
-- Tasks are redundantly executed and verified by majority consensus.  
-- Contribution history and reputation influence future task assignments.  
-
-### Hybrid Flow  
-1. Validators (PoS) secure the blockchain and confirm transactions.  
-2. Contributors (PoC) provide computing/storage resources.  
-3. Rewards are split:  
-   - PoS validators earn a small percentage for security.  
-   - PoC contributors earn the majority for real-world work.  
+**Efficiency doesn’t matter when scale dominates.**  
+GCC brute-forces inefficiency through sheer planetary participation.  
 
 ---
 
 ## Security and Redundancy  
 
-- **Redundant sharding:** Every task is executed by many nodes simultaneously. Results are accepted only if a majority (or weighted consensus) agree.  
-- **Sandboxed workloads:** Tasks run in isolated environments, protecting user devices.  
-- **Proof-of-Uptime & Reputation System:** Nodes gain reputation through accuracy and availability. Higher-rep nodes receive more tasks and rewards.  
-- **Geographic diversity:** Shards are distributed globally to reduce latency and increase resilience.  
-- **Encrypted storage:** Files are split, encrypted, and stored redundantly across independent nodes.  
-
-Even if redundancy and sandboxing make the network 2–3× less efficient than hyperscale data centers, GCC still **outcompetes through brute-force scale** — tapping into the 99% of global compute that sits idle.  
+- Every task is split and verified across multiple contributors.  
+- Multiple nodes back up critical data to prevent loss.  
+- No single point of failure.  
+- **Proof-of-Stake (PoS):** Validators secure the chain by staking GCC, ensuring energy efficiency and Sybil resistance.  
+- **Proof-of-Contribution (PoC):** Contributors provide compute/storage/bandwidth and prove their work cryptographically. Rewards are distributed proportionally.  
+- **Proof-of-Uptime & Reputation System:** Nodes earn reputation by staying online and being accurate. Higher-rep nodes get more work and rewards.  
 
 ---
 
 ## Process  
 
-1. **Universal Contributions:** Any device can join. All hardware contributes CPU, GPU, RAM, storage, and bandwidth.  
-2. **Task Sharding:** Workloads are split and distributed to many devices. More powerful nodes receive larger shards.  
-3. **Redundant Execution:** Each shard is run on multiple nodes simultaneously.  
-4. **Verification:** Results are compared. Majority consensus validates correctness.  
-5. **Storage:** Files/datasets are split, encrypted, and stored redundantly.  
-6. **Payment & Burn:** Users pay in GCC. Contributors are rewarded. 10% is burned.  
+GCC turns every participating machine into a piece of a **planet-wide supercomputer**, creating a fully decentralized, eco-friendly network for computing needs.  
+
+- **Universal Contributions:** Any machine, big or small, can join. All hardware contributes CPU, GPU, RAM, storage, and bandwidth.  
+- **Task sharding & distribution:** Workloads are automatically broken into shards. More powerful nodes get more shards. The scheduler ensures redundancy and geographic diversity to improve reliability and latency.  
+- **Execution and verification:** Nodes execute tasks in sandboxed environments. Results are verified by multiple nodes (>50% agreement = valid).  
+- **Storage:** Files and datasets are split, encrypted, and stored redundantly across independent nodes.  
+- **Reliability scoring:** Uptime + accuracy build a reputation score. Higher scores = more tasks + more rewards.  
+- **Payment & burn:** Users pay in GCC, 5–10% is burned.  
 
 ---
 
 ## Conclusion  
 
-GreenCompute Coin (GCC) is a scalable, eco-friendly cryptocurrency designed for **planet-wide computation resource sharing.**  
+GreenCompute Coin is a scalable and decentralized cryptocurrency designed for **planet-wide computation resource sharing.**  
 
 GCC addresses the limitations of traditional data centers by:  
 - Reducing energy consumption and environmental impact.  
-- Harnessing idle global compute capacity from billions of devices.  
-- Providing a censorship-resistant, fault-tolerant global network.  
-- Creating a **planet-scale decentralized supercomputer** powered by brute-force redundancy.  
+- Enabling distributed computing for AI, 3D rendering, and hosting.  
+- Creating a resilient, censorship-resistant global network.  
 
-**GCC = The world’s largest, eco-friendly, decentralized supercomputer.**  
+**GCC = The world’s largest, most powerful, eco-friendly, and decentralized supercomputer — even if inefficient, it wins by scale.**  
