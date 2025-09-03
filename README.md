@@ -16,7 +16,12 @@ GCC is a fair-launch, deflationary cryptocurrency designed to power distributed 
 ## Problem  
 Centralized data centers are heating up the planet. Concentrated servers consume massive amounts of electricity, require industrial cooling, and create an unsustainable environmental footprint. Cooling systems alone can account for 50% of a data center’s total energy consumption.  
 
-Meanwhile, billions of personal computers, laptops, and even small devices sit idle most of the time, wasting potential computing power and storage. While hyperscale data centers feel dominant, they actually account for less than 1% of the world’s total computing power. The other 99% is scattered across billions of personal devices—PCs, smartphones, consoles, and IoT nodes—yet most of that potential remains untouched. Instead of contributing to meaningful workloads, these machines spend their cycles on light tasks like browsing, video streaming, or sitting idle. GCC aims to unlock this vast, wasted capacity, transforming everyday devices into part of a global, eco-friendly computing network.
+Meanwhile, billions of personal computers, laptop and even phones sit idles, wasting potential computing power. While hyperscale data centers feel dominant, they actually account for less than 1% of the world’s total computing power. The other 99% is scattered across billions of personal devices, and IoT nodes—yet most of that potential remains untouched. Instead of contributing to meaningful workloads, these machines spend their cycles on light tasks like browsing, video streaming, or sitting idle. GCC aims to unlock this vast, wasted capacity, transforming everyday devices into part of a global, eco-friendly computing network.
+
+💡 Did you know?
+A single modern iPhone chip delivers around 1–2 TFLOPS of compute power. Multiply that by the 6.8 billion smartphones in use today, and you get an astonishing 6,800–13,600 petaflops.
+For comparison, the entire TOP500 supercomputers combined deliver only ~2,000–3,000 petaflops.
+
 ---
 
 ## Vision  
