@@ -51,14 +51,14 @@ Each device contributes a little bandwidth, compute, and storage.
     - `RewardPerUnit`: GCC per unit of work  
     - Unit = `CPU GFLOPs×1 + GPU GFLOPs×5 + Storage GB-day×0.1 + Bandwidth GB×0.2`  
     - Reward (GCC) = `Units×0.01 GCC/unit`  
-    - `MaxBlockReward`: 200 GCC/block max to prevent extreme spikes  
+    - `MaxBlockReward`: 500 GCC/block max to prevent extreme spikes  
 
 ### Fee & Burn Policy 
 To balance scarcity, usability, and ongoing development, GCC introduces a **triple-split fee system**:  
 
 - **93% → Contributors** (community providers of compute/storage/bandwidth)  
-- **5% → Burn** (applied to all payments, permanently reducing supply)  
-- **2% → Developer Treasury** (sustainable funding for protocol development and ecosystem growth)  
+- **5-10% → Burn** (applied to all payments, permanently reducing supply)  
+- **2% → Developer Treasury** (funding for protocol development and ecosystem growth)  
 
 Additionally, GCC applies **transaction-type burns**:  
 - **5% burn** → Compute/storage/hosting payments (utility transactions).  
