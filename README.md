@@ -9,7 +9,7 @@ GCC is a fair-launch, deflationary cryptocurrency designed to power distributed 
 - **Fair play:** Everyone starts equally, no pre-mine. GCC is open-source; its design is public, nobody owns or controls GCC. GCC is controlled by all GCC users around the world. Developers can improve the software, but they can't change the rules of the GCC protocol.  
 - **Secure:** Everything is encrypted and verified by all nodes planet-wide.  
 - **Reliable:** Tasks are distributed to billions of individual nodes, ensuring no single point of failure.  
-- **Deflationary economy & Increasing scarcity:** Fixed supply cap of 1,000,000,000 GCC; with a dynamic burn on every transaction.  
+- **Deflationary economy & Increasing scarcity:** Fixed supply cap of 1,000,000,000 GCC; with a dynamic burn and small developer treasury fee on every transaction.  
 
 ---
 
@@ -53,19 +53,26 @@ Each device contributes a little bandwidth, compute, and storage.
     - Reward (GCC) = `Units×0.01 GCC/unit`  
     - `MaxBlockReward`: 200 GCC/block max to prevent extreme spikes  
 
-### Burn Policy 
-To balance scarcity and usability, GCC introduces a **dual-burn system**:  
-- **5% burn** → Applied to compute/storage/hosting payments (utility transactions).  
-- **10% burn** → Applied to peer-to-peer transfers and trading (speculative transactions).  
+### Fee & Burn Policy 
+To balance scarcity, usability, and ongoing development, GCC introduces a **triple-split fee system**:  
+
+- **93% → Contributors** (community providers of compute/storage/bandwidth)  
+- **5% → Burn** (applied to all payments, permanently reducing supply)  
+- **2% → Developer Treasury** (sustainable funding for protocol development and ecosystem growth)  
+
+Additionally, GCC applies **transaction-type burns**:  
+- **5% burn** → Compute/storage/hosting payments (utility transactions).  
+- **10% burn** → Peer-to-peer transfers and trading (speculative transactions).  
 
 This ensures:  
 - Utility remains affordable and encourages real network usage.  
 - Scarcity increases rapidly from trading, fueling long-term value growth.  
+- Developer funding remains modest, fair, and tied to actual usage.  
 
 - **Halving cycle:** Every 4 years (reduces RewardPerUnit by 50%).  
 
 **Flow:**  
-`Users buy GCC → Spend for compute/storage → Contributors execute → Verified contribution tallied → Contributors earn GCC → 5–10% burned → Scarcity increases`  
+`Users buy GCC → Spend for compute/storage → Contributors execute → Verified contribution tallied → Contributors earn GCC (93%) → 5–10% burned → 2% to dev treasury → Scarcity increases + ecosystem sustained`  
 
 **Dynamic compute-per-GCC:** As scarcity increases and price rises, each GCC represents more verified contribution, maintaining compute-per-dollar stability for users.  
 
@@ -104,7 +111,7 @@ GCC turns every participating machine into a piece of a **planet-wide supercompu
 - **Execution and verification:** Nodes execute tasks in sandboxed environments. Results are verified by multiple nodes (>50% agreement = valid).  
 - **Storage:** Files and datasets are split, encrypted, and stored redundantly across independent nodes.  
 - **Reliability scoring:** Uptime + accuracy build a reputation score. Higher scores = more tasks + more rewards.  
-- **Payment & burn:** Users pay in GCC, 5–10% is burned.  
+- **Payment & burn:** Users pay in GCC, fees are split (93% providers, 5% burn, 2% dev).  
 
 ---
 
@@ -116,5 +123,6 @@ GCC addresses the limitations of traditional data centers by:
 - Reducing energy consumption and environmental impact.  
 - Enabling distributed computing for AI, 3D rendering, and hosting.  
 - Creating a resilient, censorship-resistant global network.  
+- Funding itself sustainably with only **2% developer allocation tied directly to usage**.  
 
 **GCC = The world’s largest, most powerful, eco-friendly, and decentralized supercomputer — even if inefficient, it wins by scale.**  
