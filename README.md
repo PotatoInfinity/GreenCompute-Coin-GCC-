@@ -37,7 +37,7 @@ Each device contributes a little bandwidth, compute, and storage.
 - **Use cases:** AI training/inference, 3D rendering, file hosting, or website serving through a decentralized, encrypted IPFS-style network.  
 - **Pay with GCC → Get resources:** Buy GCC coins to access secure and reliable computing power. The network automatically executes workloads across many contributors, then returns the result.  
 - **Eco advantage:** Small, distributed machines generate less heat and require no industrial cooling system. Compute is closer to consumers, reducing data transfer pollution.  
-- **Stable compute-per-dollar:** Each GCC represents the amount of verified contribution required to mine it. As scarcity increases and price rises, compute value per GCC scales so that $10 worth of GCC always buys roughly the same amount of computation over time.  
+- **Stable compute-per-dollar:** Each GCC represents the amount of verified contribution required to mine it. As scarcity increases and price rises, compute value per GCC scales so that $1 worth of GCC always buys roughly the same amount of computation over time.  
 
 ---
 
