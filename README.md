@@ -89,10 +89,22 @@ Additionally, GCC applies **transaction-type burns**:
 
 * **5% burn** → Compute/storage/hosting payments (utility transactions).
 * **10% burn** → Peer-to-peer transfers and trading (speculative transactions).
-* **Reputation score purchases** → 100% distributed to high-reputation nodes (no burn), creating reliability incentives.
+* **Reputation score purchases** → 100% distributed to high-reputation nodes (no burn).
 
 ---
+## GCC Workload tiers
 
+**Tier A: Verified Compute**
+* Workloads: AI training, rendering, file storage, inference, transcoding, static hosting.
+* Latency: Flexible (ping-based distribution).
+* Participants: Billions of personal devices.
+
+**Tier B: Real-Time Compute**
+* Workloads: Game servers, HFT, healthcare/finance APIs.
+* Latency: <50 ms, reliable uptime.
+* Participants: Professional servers, data centers.
+*Rewards: 1.5–3× higher per compute unit.
+---
 ## Security and Redundancy
 
 * Every task is split and verified across multiple contributors.
@@ -117,6 +129,14 @@ GCC turns every participating machine into a piece of a **planet-wide supercompu
 
 ---
 
+## Legal & Privacy
+
+* Contributors explicitly agree to terms & conditions.
+* All workloads sandboxed and isolated.
+* No access to local user files.
+* Data encrypted in transit and at rest.
+
+---
 ## Conclusion
 
 GreenCompute Coin is a scalable and decentralized cryptocurrency designed for **planet-wide computation resource sharing.**
@@ -128,6 +148,6 @@ GCC addresses the limitations of traditional data centers by:
 * Creating a resilient, censorship-resistant global network.
 * Incentivizing uptime and backup coverage through a **reputation economy.**
 
-**GCC = The world’s largest, most powerful, eco-friendly, and decentralized supercomputer — even if inefficient, it wins by scale.**
+**GCC = The world’s largest, most powerful, eco-friendly, and decentralized supercomputer.**
 
 ---
