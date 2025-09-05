@@ -32,6 +32,11 @@ GreenCompute Coin (GCC) solves this problem: Instead of relying on massive, conc
 
 Each device contributes a little bandwidth, compute, and storage.
 
+**Carbon Reduction Estimate:**
+* A hyperscale data center consumes ~100 MW of power.
+* Running 1 million GCC devices at just 10 W each = 10 MW total.
+* That’s ~90% lower power usage, cutting ~400,000 tons of CO₂ emissions annually (equivalent to taking ~85,000 cars off the road).
+
 ---
 
 ## How it Works
@@ -103,7 +108,7 @@ Additionally, GCC applies **transaction-type burns**:
 * Workloads: Game servers, HFT, healthcare/finance APIs.
 * Latency: <50 ms, reliable uptime.
 * Participants: Professional servers, data centers.
-*Rewards: 1.5–3× higher per compute unit.
+* Rewards: 1.5–3× higher per compute unit.
 ---
 ## Security and Redundancy
 
@@ -113,9 +118,33 @@ Additionally, GCC applies **transaction-type burns**:
 * **Proof-of-Stake (PoS):** Validators secure the chain by staking GCC, ensuring energy efficiency and Sybil resistance.
 * **Proof-of-Contribution (PoC):** Contributors provide compute/storage/bandwidth and prove their work cryptographically. Rewards are distributed proportionally.
 * **Proof-of-Uptime & Reputation Market:** Nodes earn reputation by staying online and being accurate. Reputation can also be boosted via GCC purchases, directly rewarding strong nodes who guarantee backups for weaker ones. This ensures stability while creating a reliability economy.
-
+* **To ensure results are trustworthy:**
+  * Task Redundancy: Every workload is assigned to at least three independent nodes.
+  * Results are compared — if ≥ 2/3 match, they are accepted.
+  * Proven cheaters lose rewards and reputation.
 ---
 
+## Consensus Mechanism: PoS + PoC  
+
+GCC eliminates wasteful Proof of Work. Instead, it uses a hybrid **Proof of Stake (PoS) + Proof of Contribution (PoC)** consensus model.  
+
+### Proof of Stake (PoS)  
+- Validators are chosen based on stake to propose and validate blocks.  
+- PoS ensures chain security and Sybil resistance with minimal energy usage.  
+
+### Proof of Contribution (PoC)  
+- Contributors earn rewards for verified compute, storage, and bandwidth.  
+- Tasks are redundantly executed and verified by majority consensus.  
+- Contribution history and reputation influence future task assignments.  
+
+### Hybrid Flow  
+1. Validators (PoS) secure the blockchain and confirm transactions.  
+2. Contributors (PoC) provide computing/storage resources.  
+3. Rewards are split:  
+   - PoS validators earn a small percentage for security.  
+   - PoC contributors earn the majority for real-world work.
+  
+---
 ## Process
 
 GCC turns every participating machine into a piece of a **planet-wide supercomputer**, creating a fully decentralized, eco-friendly network for computing needs.
@@ -125,7 +154,7 @@ GCC turns every participating machine into a piece of a **planet-wide supercompu
 * **Execution and verification:** Nodes execute tasks in sandboxed environments. Results are verified by multiple nodes (>50% agreement = valid).
 * **Storage:** Files and datasets are split, encrypted, and stored redundantly across independent nodes.
 * **Reputation market:** Uptime + accuracy build natural reputation. Paid boosts funnel resources to strong nodes, ensuring backup reliability.
-* **Payment & burn:** Users pay in GCC, fees are split (93% providers, 5% burn, 2% dev). Reputation purchases flow directly to top providers.
+* **Payment & burn:** Users pay in GCC, fees are split (94.5% contributors, 5% burn, 0.5% dev). Reputation purchases flow directly to top providers.
 
 ---
 
@@ -136,6 +165,35 @@ GCC turns every participating machine into a piece of a **planet-wide supercompu
 * No access to local user files.
 * Data encrypted in transit and at rest.
 
+---
+
+## Governance 
+
+**1. Immutable Core Protocol**
+* The fundamental rules of GCC — including consensus mechanism, cryptography, proof-of-contribution, developer treasury, and reward validation — are permanently fixed.
+
+**2. Adjustable parameters:**
+The community can vote on operational parameters within safe ranges:
+
+* Block reward multiplier
+* Transaction fee split (burn %, contributor %)
+* Maximum block reward cap
+* Reputation boost cost factors
+* Workload tier reward multipliers
+
+**3. Proposal & Voting**
+* Anyone can draft a proposal (GIP - GreenCompute Improvement Proposal)
+* Proposals are published openly for review and discussion.
+* All GCC token holders can vote, with voting power proportional to their holdings.
+
+**4. Developer role**
+* Developers maintain the open-source GCC codebase by fixing bugs, improve performance, or add optional tools.
+* They cannot change the rules
+* Code contributions must pass the voting process.
+
+**5. Validator Role**
+* Validators enforce consensus rules by running the PoS.
+* They cannot bypass or rewrite rules.
 ---
 ## Conclusion
 
