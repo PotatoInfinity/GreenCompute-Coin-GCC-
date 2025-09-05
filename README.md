@@ -127,7 +127,6 @@ GCC addresses the limitations of traditional data centers by:
 * Enabling distributed computing for AI, 3D rendering, and hosting.
 * Creating a resilient, censorship-resistant global network.
 * Incentivizing uptime and backup coverage through a **reputation economy.**
-* Funding itself sustainably with only **2% developer allocation tied directly to usage**.
 
 **GCC = The world’s largest, most powerful, eco-friendly, and decentralized supercomputer — even if inefficient, it wins by scale.**
 
